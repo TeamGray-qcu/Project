@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:#e8e7e7;
+  height: 100%;
+  
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  color: rgb(77, 75, 75);
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar a:hover {
+  color: rgb(18, 17, 17);
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.left-section {
+  display: flex;
+  justify-content: start;
+  align-items: center; 
+}
+
+.right-section {
+  display: flex;
+  justify-content: end;
+}
+
+
+.parent-container {
+  overflow-x: auto; 
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  white-space: nowrap;
+  padding-top: 15vh;
+}
+
+.channel-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #ccc; 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.profile-information {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.customer-id, .pet-id {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.id-pet {
+  font-weight: bold;
+}
+
+.button-link {
+  text-decoration: none; 
+}
+
+.statistics-button {
+  background-color: #eba24f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 11vh;
+}
+
+.statistics-button:hover {
+  background-color: #f58a11;
+}
+
+.statistics-button:active {
+  background-color: #d68e39;
+  transform: scale(1.01);
+}
